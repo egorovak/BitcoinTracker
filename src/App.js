@@ -1,6 +1,6 @@
 import CryptoTracker from "./CryptoTracker";
 
-
+ 
 const App = () => (
     <CryptoTracker/>
 );
