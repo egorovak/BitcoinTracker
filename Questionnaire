@@ -1,0 +1,18 @@
+1) Are there any sub-optimal choices( or short cuts taken due to limited time ) in your implementation?
+
+I have used react bootstrap to implement UI to save time. It doesn't affect the perfomance much but looks more 'generic'. Also there could be a cleaner way to fetch data from API,
+perhaps  dynamically, but I but I have not worked with React and API's recently and didn't know on top of my head the optimal way.
+
+2) Is any part of it over-designed? ( It is fine to over-design to showcase your skills as long as you are clear about it)
+
+I didnt have much time so I do not think I have overdesigned anything. 
+
+3) If you have to scale your solution to 100 users/second traffic what changes would you make, if any?
+
+Usually I would say we could try using caching but since cryptomarket never closes, that would not benefit much, so I am not sure how else we could optimize perfomance. 
+
+4) What are some other enhancements you would have made, if you had more time to do this implementatio
+
+Perhaps I could add a function that reloads the data every minute or so becuase at the moment the information will not be updated unless you refresh the page.
+I would also research a bit more about different sources because the prices at Coinbase and Gemini seem too different and they always favor Gemini, which makes me wonder
+why would people buy from Coinbase and what do I not undrstand about this market. Also, the page looks boring, adding some style would be nice :) 
